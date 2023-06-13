@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+import DropDownOption from '../components/buttomOptions.jsx';
+---
+
+<Layout title="CV">
+    <main>    
+        <DropDownOption client:load/>
+        <div class="md:my-14 md:pr-14">            
+            <section class="pb-5">
+                <p class="text-3xl text-[#006cd9] font-normal pt-3 pb-2">/Profile</p>
+                <p class="text-white md:text-lg text-base text-justify pl-4">
+                    I am a junior web developer with over 1 year of experience. I consider myself proactive and passionate about challenges in the field of technology. I always strive to stay up to date and keep myself informed about the latest trends and advancements. Moreover, I have a strong drive for self-learning, which motivates me to explore new technologies and tools to continuously enhance my performance and skills in web development.
+                </p>
+            </section>
+
+            <section class="pb-5">
+                <p class="text-3xl text-[#006cd9] font-normal pt-3 pb-2">/Education</p>
+                <p class="text-xl text-white pl-4">software engineer</p>
+                <p class="pl-4 text-white pb-3">2019 to 2022 at Isil, Lima, Peru</p>
+
+                <p class="text-xl text-white pl-4">English C1</p>
+                <p class="pl-4 text-white pb-3">2018 to 2021 at Icpna, Lima, Peru</p>
+
+                <p class="text-xl text-white pl-4">Javascript</p>
+                <p class="pl-4 text-white pb-3">2019 to 2020 at Udemy</p>
+
+                <p class="text-xl text-white pl-4">Python</p>
+                <p class="pl-4 text-white pb-3">2020 to 2021 at Udemy</p>                
+
+            </section>    
+            
+            <section class="pb-5">
+                <p class="text-3xl text-[#006cd9] font-normal pt-3 pb-2">/Experience</p>
+                <p class="text-xl text-white pl-4">Landing page for Vicios Burger</p>
+                <p class="pl-4 text-white pb-2">From 2021 to 2021 at Lima, Peru</p>
+                <p class="pl-4 text-white pb-4">As a freelancer, my first project involved creating a landing page for a local fast food restaurant in my area. The landing page showcased their products, listed their locations, and included a contact form. I utilized HTML, CSS, Bootstrap, and JavaScript to handle all aspects of the page's creation. Although the page is currently offline, it was taken down in preparation for the development of an e-commerce platform.</p>                  
+
+                <p class="text-xl text-white pl-4">Samishop</p>
+                <p class="pl-4 text-white pb-2">From 2022 to now at Lima, Peru</p>
+                <p class="pl-4 text-white pb-4">At Samishop, I work as a front-end developer responsible for layout design, functionality enhancement, data capture, and data submission. I have worked on various projects, with the majority being e-commerce websites, using HTML, CSS, Bootstrap, JavaScript, and jQuery.</p>                  
+
+            </section>
+
+            <div class="text-center pt-5 md:pb-0 pb-4">
+                <button class="mx-2.5 cursor-pointer border-solid border border-[#006cd9] rounded-2xl md:text-lg text-base text-[#006cd9] font-bold ease-in duration-300 hover:scale-125 hover:shadow-lg ">
+                    <a class="py-2.5 px-5 block" href="../resume/cv_actualizado_ingles.pdf" download="Sebastian_Campos_CV">CV English</a> 
+                </button>
+
+                <button class="mx-2.5 cursor-pointer border-solid border border-[#006cd9] rounded-2xl md:text-lg text-base text-[#006cd9] font-bold ease-in duration-300 hover:scale-125 hover:shadow-lg ">
+                    <a class="py-2.5 px-5 block" href="../resume/cv_sebastian_actualizado.pdf" download="Sebastian_Campos_CV">CV Spanish</a> 
+                </button>
+
+            </div>
+            
+        </div>	
+    </main>
+</Layout>
