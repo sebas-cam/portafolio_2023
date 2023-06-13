@@ -23,6 +23,6 @@
 
 -  **HTML**, **CSS**, **Tailwind**, **JavaScript**, **React**, **Astro**
 
-**LINK**
+## **LINK**
 
 - <a href="https://sebastian-campos.com/" target="_blank">sebastian-campos.com</a>
