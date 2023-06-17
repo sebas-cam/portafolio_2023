@@ -17,7 +17,7 @@ export default function ProjectCard({ maxProjects }) {
         {
             'id':'1',
             'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
-            'titulo':'Demo Project 1',
+            'titulo':'Plataforma de reservas',
             'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
             'link':'/project/Project1',
             'alt':"escribir datos sobre el projecto para ceo",
@@ -27,7 +27,7 @@ export default function ProjectCard({ maxProjects }) {
         {
             'id':'2',
             'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
-            'titulo':'Demo Project 2',
+            'titulo':'Gestor de notas',
             'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
             'link':'/project/Project2',
             'alt':"escribir datos sobre el projecto para ceo",
@@ -37,7 +37,7 @@ export default function ProjectCard({ maxProjects }) {
         {
             'id':'3',
             'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
-            'titulo':'Demo Project 3',
+            'titulo':'App de clima',
             'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
             'link':'/project/Project3',
             'alt':"escribir datos sobre el projecto para ceo",
@@ -47,7 +47,7 @@ export default function ProjectCard({ maxProjects }) {
         {
             'id':'4',
             'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
-            'titulo':'Demo Project 4',
+            'titulo':'Rick y morty app',
             'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
             'link':'/project/Project4',
             'alt':"escribir datos sobre el projecto para ceo",
@@ -57,7 +57,7 @@ export default function ProjectCard({ maxProjects }) {
         {
             'id':'5',
             'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
-            'titulo':'Demo Project 5',
+            'titulo':'Ecoommerse',
             'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
             'link':'/project/Project5',
             'alt':"escribir datos sobre el projecto para ceo",
@@ -77,7 +77,7 @@ export default function ProjectCard({ maxProjects }) {
     ]
 
     const projectsList = projectsArray.slice(0, maxProjects).map(project =>       
-        <a href={project.link}>
+        <a key={project.id} href={project.link}>
             <div className="grid grid-cols-4 gap-4 text-[#fff] cursor-pointer hover:scale-105 hover:shadow-lg ease-in duration-300 rounded-2xl px-2 py-8">
                 <div class="col-span-4 md:col-span-1 m-auto">
                     <img className="rounded-2xl" src={project.imagen}></img>
