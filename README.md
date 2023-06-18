@@ -1,10 +1,10 @@
 # portafolio_2023
 
-## **📌 OBJETIVOS**
+## **📌 OBJECTIVES**
 
 - create a new web portfolio with a better UI
 
-## **📌 DESCRIPCIÓN DEL PROYECTO**
+## **📌 PROJECT DESCRIPTION**
  
 - In this web you can:
 
@@ -19,7 +19,7 @@
 ✅ Contact me.
 <br />
 
-## **🦾 TECNOLOGÍAS**
+## **🦾 TECHNOLOGIES**
 
 -  **HTML**, **CSS**, **Tailwind**, **JavaScript**, **React**, **Astro**
 
