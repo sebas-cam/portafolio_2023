@@ -47,7 +47,7 @@ export default function ProjectCard({ maxProjects }) {
         {
             'id':'4',
             'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
-            'titulo':'Rick y morty app',
+            'titulo':'Rick y Morty App',
             'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
             'link':'/project/Project4',
             'alt':"escribir datos sobre el projecto para ceo",
