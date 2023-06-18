@@ -27,7 +27,7 @@ export default function ProjectCard({ maxProjects }) {
         {
             'id':'2',
             'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
-            'titulo':'Gestor de notas',
+            'titulo':'Netflix',
             'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
             'link':'/project/Project2',
             'alt':"escribir datos sobre el projecto para ceo",
@@ -57,7 +57,7 @@ export default function ProjectCard({ maxProjects }) {
         {
             'id':'5',
             'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
-            'titulo':'Ecoommerse',
+            'titulo':'Gestor de notas',
             'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
             'link':'/project/Project5',
             'alt':"escribir datos sobre el projecto para ceo",
@@ -67,7 +67,7 @@ export default function ProjectCard({ maxProjects }) {
         {
             'id':'6',
             'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
-            'titulo':'Demo Project 6',
+            'titulo':'Ecoommerse',
             'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
             'link':'/project/Project6',
             'alt':"escribir datos sobre el projecto para ceo",
