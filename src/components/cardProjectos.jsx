@@ -19,8 +19,8 @@ export default function ProjectCard({ maxProjects }) {
             'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
             'titulo':'Plataforma de reservas',
             'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
-            'linkGit':'/project/Project1',
-            'linkWeb':'/project/Project1',
+            'linkGit':'#',
+            'linkWeb':'#',
             'alt':"escribir datos sobre el projecto para ceo",
             'title':"titulo para mejorar la experiencia de usuario, cuando el mouse esta sobre la imagen",
             'svg': [imgCss, imgExpress, imgHtml, imgJavascript, imgJwt, imgMongodb, imgReact, imgRedux, imgTailwind, imgMysql, imgNodejs, imgPython]            
@@ -30,8 +30,8 @@ export default function ProjectCard({ maxProjects }) {
             'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
             'titulo':'Netflix',
             'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
-            'linkGit':'/project/Project1',
-            'linkWeb':'/project/Project1',
+            'linkGit':'#',
+            'linkWeb':'#',
             'alt':"escribir datos sobre el projecto para ceo",
             'title':"titulo para mejorar la experiencia de usuario, cuando el mouse esta sobre la imagen",
             'svg': [imgCss, imgExpress, imgHtml, imgJavascript, imgJwt, imgMongodb, imgReact, imgRedux, imgTailwind, imgMysql, imgNodejs, imgPython]
@@ -41,8 +41,8 @@ export default function ProjectCard({ maxProjects }) {
             'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
             'titulo':'App de clima',
             'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
-            'linkGit':'/project/Project1',
-            'linkWeb':'/project/Project1',
+            'linkGit':'#',
+            'linkWeb':'#',
             'alt':"escribir datos sobre el projecto para ceo",
             'title':"titulo para mejorar la experiencia de usuario, cuando el mouse esta sobre la imagen",
             'svg': [imgCss, imgExpress, imgHtml, imgJavascript, imgJwt, imgMongodb, imgReact, imgRedux, imgTailwind, imgMysql, imgNodejs, imgPython]
@@ -74,8 +74,8 @@ export default function ProjectCard({ maxProjects }) {
             'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
             'titulo':'Ecoommerse',
             'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
-            'linkGit':'/project/Project1',
-            'linkWeb':'/project/Project1',
+            'linkGit':'#',
+            'linkWeb':'#',
             'alt':"escribir datos sobre el projecto para ceo",
             'title':"titulo para mejorar la experiencia de usuario, cuando el mouse esta sobre la imagen",
             'svg': [imgCss, imgExpress, imgHtml, imgJavascript, imgJwt, imgMongodb, imgReact, imgRedux, imgTailwind, imgMysql, imgNodejs, imgPython]
