@@ -10,6 +10,7 @@ import imgTailwind from "../image/tailwind.png"
 import imgMysql from "../image/mysql.png"
 import imgNodejs from "../image/nodejs.png"
 import imgPython from "../image/python.png"
+import imgViteJs from "../image/vitejs.png"
 
 export default function ProjectCard({ maxProjects }) {    
     
@@ -27,19 +28,19 @@ export default function ProjectCard({ maxProjects }) {
         },
         {
             'id':'2',
-            'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
-            'titulo':'Netflix',
-            'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
-            'linkGit':'#',
-            'linkWeb':'#',
-            'alt':"escribir datos sobre el projecto para ceo",
-            'title':"titulo para mejorar la experiencia de usuario, cuando el mouse esta sobre la imagen",
-            'svg': [imgCss, imgExpress, imgHtml, imgJavascript, imgJwt, imgMongodb, imgReact, imgRedux, imgTailwind, imgMysql, imgNodejs, imgPython]
+            'imagen':'https://res.cloudinary.com/dhanciveg/image/upload/v1687463430/tiktaktoe/tiktaktou_wbvwrn.png',
+            'titulo':'Tic Tac Toe',
+            'descripcion':'The Tic Tac Toe app is a classic game implementation where users can enjoy playing against either another player or the computer. The app features a visually appealing and user-friendly interface that displays the game board and allows players to make their moves. It keeps track of the players moves and determines the outcome of the game, whether its a victory, a draw, or any other result.',
+            'linkGit':'https://github.com/sebas-cam/Tic-Tac-Toe',
+            'linkWeb':'http://tic-tac-toe.sebastian-campos.com/',
+            'alt':"tic tac toe app, sebastian campos, tic tac toe",
+            'title':"Tic Tac Toe ",
+            'svg': [imgHtml, imgCss, imgJavascript, imgReact, imgViteJs]
         },
         {
             'id':'3',
             'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
-            'titulo':'App de clima',
+            'titulo':'Palabras clase para el ceo por inteligencia artificial',
             'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
             'linkGit':'#',
             'linkWeb':'#',
@@ -56,7 +57,7 @@ export default function ProjectCard({ maxProjects }) {
             'linkWeb':'https://rick-and-morty.sebastian-campos.com/',
             'alt':"Rick and morty, rick and morty web, rick and morty app",
             'title':"Rick y Morty App",
-            'svg': [imgHtml, imgCss, imgTailwind, imgJavascript, imgReact]
+            'svg': [imgHtml, imgCss, imgTailwind, imgJavascript, imgReact, imgViteJs]
         },
         {
             'id':'5',
@@ -68,18 +69,7 @@ export default function ProjectCard({ maxProjects }) {
             'alt':"Gestor de notas, add notes, create notes",
             'title':"Gestor de notas",
             'svg': [ imgHtml, imgCss, imgTailwind, imgJavascript, imgReact, imgRedux, imgJwt, imgPython, imgMysql]
-        },
-        {
-            'id':'6',
-            'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
-            'titulo':'Ecoommerse',
-            'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
-            'linkGit':'#',
-            'linkWeb':'#',
-            'alt':"escribir datos sobre el projecto para ceo",
-            'title':"titulo para mejorar la experiencia de usuario, cuando el mouse esta sobre la imagen",
-            'svg': [imgCss, imgExpress, imgHtml, imgJavascript, imgJwt, imgMongodb, imgReact, imgRedux, imgTailwind, imgMysql, imgNodejs, imgPython]
-        }
+        }        
     ]
 
     const projectsList = projectsArray.slice(0, maxProjects).map(project =>       
