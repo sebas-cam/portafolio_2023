@@ -17,14 +17,14 @@ export default function ProjectCard({ maxProjects }) {
     const projectsArray = [
         {
             'id':'1',
-            'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
-            'titulo':'Plataforma de reservas',
-            'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
-            'linkGit':'#',
-            'linkWeb':'#',
-            'alt':"escribir datos sobre el projecto para ceo",
-            'title':"titulo para mejorar la experiencia de usuario, cuando el mouse esta sobre la imagen",
-            'svg': [imgCss, imgExpress, imgHtml, imgJavascript, imgJwt, imgMongodb, imgReact, imgRedux, imgTailwind, imgMysql, imgNodejs, imgPython]            
+            'imagen':'https://res.cloudinary.com/dhanciveg/image/upload/v1687876812/Joke%20maker/jodeMaker_lovpxi.png',
+            'titulo':'Joke Generator',
+            'descripcion':'The joke generator web app is a fun tool that allows you to get jokes from different categories in the language of your choice. With just a few clicks, you can brighten your day with jokes in English or Spanish. You can choose from various categories such as programming, miscellaneous, dark, puns, spooky, and Christmas. Additionally, you have the option to select the language in which you want to receive the jokes.',
+            'linkGit':'https://github.com/sebas-cam/joke-maker',
+            'linkWeb':'http://joke-generator.sebastian-campos.com/',
+            'alt':"joke maker, generate a joke, joke generator",
+            'title':"Joke Generator",
+            'svg': [imgHtml, imgCss, imgTailwind, imgJavascript, imgReact, imgViteJs]            
         },
         {
             'id':'2',
@@ -39,15 +39,15 @@ export default function ProjectCard({ maxProjects }) {
         },
         {
             'id':'3',
-            'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
-            'titulo':'Palabras clase para el ceo por inteligencia artificial',
-            'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
-            'linkGit':'#',
-            'linkWeb':'#',
-            'alt':"escribir datos sobre el projecto para ceo",
-            'title':"titulo para mejorar la experiencia de usuario, cuando el mouse esta sobre la imagen",
-            'svg': [imgCss, imgExpress, imgHtml, imgJavascript, imgJwt, imgMongodb, imgReact, imgRedux, imgTailwind, imgMysql, imgNodejs, imgPython]
-        },
+            'imagen':'https://res.cloudinary.com/dhanciveg/image/upload/v1687219500/Gesto%20de%20notas/addNote_nebj9z.png',
+            'titulo':'Gestor de notas',
+            'descripcion':'My project is a note-taking application that allows users to create, read, edit, and delete notes. It provides a user-friendly interface to manage personal or professional notes efficiently. The application allows users to create new notes by entering a title and the content of the note.',
+            'linkGit':'https://github.com/sebas-cam/notas-app-complete',
+            'linkWeb':'https://app-notas-projecto.sebastian-campos.com/',
+            'alt':"Gestor de notas, add notes, create notes",
+            'title':"Gestor de notas",
+            'svg': [ imgHtml, imgCss, imgTailwind, imgJavascript, imgReact, imgRedux, imgJwt, imgPython, imgMysql]
+        },        
         {
             'id':'4',
             'imagen':'https://res.cloudinary.com/dhanciveg/image/upload/v1687218987/rickandmorty_zzplyv.png',
@@ -61,14 +61,25 @@ export default function ProjectCard({ maxProjects }) {
         },
         {
             'id':'5',
-            'imagen':'https://res.cloudinary.com/dhanciveg/image/upload/v1687219500/Gesto%20de%20notas/addNote_nebj9z.png',
-            'titulo':'Gestor de notas',
-            'descripcion':'My project is a note-taking application that allows users to create, read, edit, and delete notes. It provides a user-friendly interface to manage personal or professional notes efficiently. The application allows users to create new notes by entering a title and the content of the note.',
-            'linkGit':'https://github.com/sebas-cam/notas-app-complete',
-            'linkWeb':'https://app-notas-projecto.sebastian-campos.com/',
-            'alt':"Gestor de notas, add notes, create notes",
-            'title':"Gestor de notas",
-            'svg': [ imgHtml, imgCss, imgTailwind, imgJavascript, imgReact, imgRedux, imgJwt, imgPython, imgMysql]
+            'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
+            'titulo':'Palabras clase para el ceo por inteligencia artificial',
+            'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
+            'linkGit':'#',
+            'linkWeb':'#',
+            'alt':"escribir datos sobre el projecto para ceo",
+            'title':"titulo para mejorar la experiencia de usuario, cuando el mouse esta sobre la imagen",
+            'svg': [imgCss, imgExpress, imgHtml, imgJavascript, imgJwt, imgMongodb, imgReact, imgRedux, imgTailwind, imgMysql, imgNodejs, imgPython]
+        },
+        {
+            'id':'6',
+            'imagen':'https://astro-modern-personal-website.netlify.app/_astro/post_img_Z1NWKef.webp',
+            'titulo':'Plataforma de reservas',
+            'descripcion':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil neque molestias tenetur veritatis officiis in eius consequatur aliquam ipsam dicta iste ipsum illo possimus sapiente quidem laboriosam, dolorem est iusto.',
+            'linkGit':'#',
+            'linkWeb':'#',
+            'alt':"escribir datos sobre el projecto para ceo",
+            'title':"titulo para mejorar la experiencia de usuario, cuando el mouse esta sobre la imagen",
+            'svg': [imgCss, imgExpress, imgHtml, imgJavascript, imgJwt, imgMongodb, imgReact, imgRedux, imgTailwind, imgMysql, imgNodejs, imgPython]            
         }        
     ]
 
